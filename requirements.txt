@@ -1,5 +1,9 @@
-streamlit 
-sqlite3
+streamlit==1.9.0
+sqlite3==3.34.0
 hashlib 
-transformers 
-PyPDF2 
+transformers==4.19.0
+PyPDF2==1.26.0
+
+
+
+
