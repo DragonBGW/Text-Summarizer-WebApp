@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 from hashlib import sha256
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from transformers import T5Tokenizer, T5ForConditionalGeneration, pipeline
 import torch
 import base64
@@ -157,4 +157,5 @@ def text_to_speech(text, lang='en'):
 
 if __name__ == '__main__':
     main()
+
 
